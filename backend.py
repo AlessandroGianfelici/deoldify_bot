@@ -2,7 +2,7 @@ import sys
 import time
 import telepot
 import os, sys
-from token import token
+from bot_token import bot_token
 myfolder = os.getcwd()
 os.chdir(os.path.join(myfolder, 'DeOldify'))
 sys.path.append(os.path.join(myfolder, 'DeOldify'))
@@ -55,7 +55,7 @@ def handle(msg):
         bot.sendPhoto(chat_id=chat_id, photo=open(os.path.join(myfolder, 'DeOldify', result_path), 'rb'))
     return None
 
-bot = telepot.Bot(token)
+bot = telepot.Bot(bot_token)
 bot.message_loop(handle)
 
 while(1):

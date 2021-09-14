@@ -130,7 +130,7 @@ dmypy.json
 *.png
 *jpg
 *jpeg
-token.py
+bot_token.py
 
 
 # Pyre type checker
