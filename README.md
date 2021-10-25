@@ -4,7 +4,9 @@ A telegram bot to colorize your old b/w photo using Deoldify (https://github.com
 # Requirements
 To run this bot, you need the telepot package:
 
+```python
 pip install telepot
+```
 
 and the requirements of Deoldify. Here the last version:
 
